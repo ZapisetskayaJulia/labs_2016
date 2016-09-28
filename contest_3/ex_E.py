@@ -1,6 +1,6 @@
-a = int(input())
-k = 0
-while a != 0 :
-    k +=a
-    a = int(input())
-print(k)
+cur=int(input())
+sum=0
+while cur != 0 :
+    sum=sum+cur
+    cur=int(input())
+print(sum)

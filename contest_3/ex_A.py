@@ -1,9 +1,9 @@
-n = int(input())
+ch = int(input())
 i = 1
-st = ''
-while (i*i)<(n+1):
-    if ((i*i) <= n):
+otv = ''
+while (i*i)<(ch+1):
+    if ((i*i) <= ch):
         a = i*i
-        st = st + str(a) + ' '
+        otv = otv + str(a) + ' '
     i = i+1
-print(st)
+print(otv)

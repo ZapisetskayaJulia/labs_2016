@@ -1,8 +1,8 @@
-a = int(input())
-k = 0
-n = 0
-while a != 0 :
-    k +=a
-    n +=1
-    a = int(input())
-print(k/n)
+cur=int(input())
+kol=0
+sum=0
+while cur != 0 :
+    sum=sum+cur
+    kol +=1
+    cur=int(input())
+print(sum/kol)

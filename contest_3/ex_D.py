@@ -1,6 +1,6 @@
-a = int(input())
-k = 0
-while a != 0 :
-    k +=1
-    a = int(input())
-print(k)
+ch=int(input())
+kol=0
+while ch != 0 :
+    kol +=1
+    ch=int(input())
+print(kol)
