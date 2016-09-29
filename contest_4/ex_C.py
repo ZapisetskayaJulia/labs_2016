@@ -1,4 +1,4 @@
-a = int(input())
+a z= int(input())
 k = 0
 while a != 0:
     b = int(input())

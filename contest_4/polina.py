@@ -1,7 +1,7 @@
-a z= int(input())
-k = 0
+a = int(input())
+i = 0
 while a != 0:
     if a % 2 == 0:
-        k += 1
+        i +=1
     a = int(input())
-print(k)
+print (i)
