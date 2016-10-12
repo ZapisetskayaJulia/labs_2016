@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def get_percentile (values, bn):
+def get_percentile(values, bn):
     k = 100/bn
     s = [0.0]
     for i in range(1, bn):
