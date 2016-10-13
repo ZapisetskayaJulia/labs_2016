@@ -16,7 +16,7 @@ spisok = get_percentile(values,bn)
 print(get_percentile(values,bn))
 
 
-def get_percentile_number (a,percentiles):
+def get_percentile_number(a,percentiles):
     i = 0
     while (percentiles[i] <= a) and(i < len(percentiles)):
         i += 1
