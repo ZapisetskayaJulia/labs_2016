@@ -21,17 +21,7 @@ def get_percentile_number(a,percentiles):
     while (percentiles[i] <= a) and(i < len(percentiles)):
         i += 1
     return i-1
-k_1 = float (input())
-numb = get_percentile_number(k_1, spisok)
-print(numb)
-
-
-def value_equalization(value, percentiles):
-    idx = get_percentile_number(value,percentiles)
-    step = 1/len(percentiles)
-    new_value = idx*step
-    return new_value
-print(value_equalization(k_1,spisok))
+k_1 = float (input())ЩЩЩzation(k_1,spisok))
 
 
 def value_equalization(value, percentiles,add_random=False):
