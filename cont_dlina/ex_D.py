@@ -1,3 +1,5 @@
+#Проверить связность графа
+
 def read_graph_as_lists():
     N = int(input())
     M = int(input())

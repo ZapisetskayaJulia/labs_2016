@@ -1,3 +1,5 @@
+#Сильные и слабые компоненты связности
+
 def read_graph_as_lists(N,M):
     graph = [[] for i in range(N)]
     for edge in range (M):

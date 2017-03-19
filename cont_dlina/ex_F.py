@@ -1,10 +1,12 @@
-def gr (N):
+#Матрица смежности в список ребер
+
+def read_graph ():
+    N = int(input())
     for i in range(N):
         s = input().split()
         for j in range(N):
-            s[j] = int(s[j])
-            if s[j] != 0:
-                print(i,j,s[j])
+            if int(s[j]) != 0:
+                print(i,j,int(s[j]))
 
-N= int(input())
-graph = gr(N)
+
+graph = read_graph()
